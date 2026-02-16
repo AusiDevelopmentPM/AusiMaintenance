@@ -1,6 +1,8 @@
 name: AusiMaintenance
 version: 1.0.0
 api: 5.0.0
+description: "Simple and lightweight Maintenance plugin for PocketMine-MP 5"
+website: https://ausidevelopmentpm.github.io
 
 author: AusiDevelopmentPM
 authors: [EyNoah1171]

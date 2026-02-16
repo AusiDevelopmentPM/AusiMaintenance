@@ -21,6 +21,7 @@ class Loader extends PluginBase {
     {
         self::setInstance($this);
 
+        $this->initPlugin();
 
 
     }
