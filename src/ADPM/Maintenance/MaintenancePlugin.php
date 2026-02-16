@@ -13,7 +13,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 use pocketmine\utils\SingletonTrait;
 
-class Loader extends PluginBase {
+class MaintenancePlugin extends PluginBase {
 
     use SingletonTrait;
 

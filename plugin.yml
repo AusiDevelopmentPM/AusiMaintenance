@@ -7,7 +7,7 @@ website: https://ausidevelopmentpm.github.io
 author: AusiDevelopmentPM
 authors: [EyNoah1171]
 
-main: APDM\Maintenance\Loader
+main: APDM\Maintenance\MaintenancePlugin
 
 permissions:
   maintenance.command:
