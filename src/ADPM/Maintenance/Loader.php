@@ -8,7 +8,9 @@
 
 namespace ADPM\Maintenance;
 
+use ADPM\Maintenance\commands\MaintenanceCommand;
 use pocketmine\plugin\PluginBase;
+use pocketmine\Server;
 use pocketmine\utils\SingletonTrait;
 
 class Loader extends PluginBase {
@@ -19,6 +21,17 @@ class Loader extends PluginBase {
     {
         self::setInstance($this);
 
+
+
+    }
+
+
+    private function initPlugin(): void
+    {
+        $pm = Server::getInstance()->getPluginManager();
+        $map = Server::getInstance()->getCommandMap();
+
+        $map->register("ausimaintenance", new MaintenanceCommand());
     }
 
 }
