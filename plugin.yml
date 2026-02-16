@@ -1,0 +1,12 @@
+name: AusiMaintenance
+version: 1.0.0
+api: 5.0.0
+
+author: AusiDevelopmentPM
+authors: [EyNoah1171]
+
+main: APDM\Maintenance\Loader
+
+permissions:
+  maintenance.command:
+    default: op

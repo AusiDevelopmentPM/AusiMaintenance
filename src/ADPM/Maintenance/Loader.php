@@ -18,7 +18,7 @@ class Loader extends PluginBase {
     public function onEnable(): void
     {
         self::setInstance($this);
-        
+
     }
 
 }
